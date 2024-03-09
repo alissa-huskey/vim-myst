@@ -1,0 +1,18 @@
+title: vim-myst
+
+exclude_patterns: [snippets/*]
+
+html:
+  extra_navbar: ""
+  extra_footer: ""
+
+parse:
+  myst_extended_syntax: true
+  myst_heading_anchors: 2
+
+sphinx:
+  config:
+    nb_custom_formats:
+        .myst:
+            - nbformat.reads
+            - as_version: 4

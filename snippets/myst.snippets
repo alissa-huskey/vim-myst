@@ -1,0 +1,12 @@
+extends markdown
+
+# snippet ```
+#   \`\`\`${1}
+#   ${0:${VISUAL}}
+#   \`\`\`
+
+snippet ex
+	\`\`\`{exercise} ${1}
+	:label: ${1}-exercise
+	${0:instructions}
+	\`\`\`

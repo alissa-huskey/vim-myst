@@ -1,0 +1,9 @@
+
+2020-12-11 fix strikethrough @rendering
+
+2020-12-11 fix backslash escape @syntax
+
+2020-12-11 change syntax highlighting of block breaks `+++` @syntax
+2020-12-11 split up into multiple files @housekeeping
+
+2020-12-11 move to .myst @housekeeping
